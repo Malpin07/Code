@@ -51,3 +51,5 @@
 162	511	7401573379174762	StringTest/StringTest.exe	59099b1cbb69b0f0
 12	169	7401573539220702	StringTest/CMakeFiles/StringTest.dir/main.c.obj	e81d869f302e8572
 171	515	7401573542125729	StringTest/StringTest.exe	59099b1cbb69b0f0
+11	286	7401623475248942	Sort/SelectSort/CMakeFiles/SelectSort.dir/main.c.obj	f1d32b2242c809a5
+289	603	7401623478504341	Sort/SelectSort/SelectSort.exe	925641a1953a544
