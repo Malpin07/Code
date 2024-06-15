@@ -1,0 +1,246 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "LinkList",
+					"jsonFile" : "directory-LinkList-Debug-c757835a6ce4a6576ead.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LinkList",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "FileDemo",
+					"jsonFile" : "directory-FileDemo-Debug-1fea3190e0aaa1146667.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "FileDemo",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "TestBinary",
+					"jsonFile" : "directory-TestBinary-Debug-520778dcee5b1fce65da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "TestBinary",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "DoubleLinkedList",
+					"jsonFile" : "directory-DoubleLinkedList-Debug-4de3d51db5aaef48a302.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "DoubleLinkedList",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Sort/PopSort",
+					"jsonFile" : "directory-Sort.PopSort-Debug-1a0b216d510229af09a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Sort/PopSort",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_Code",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LinkList",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "FileDemo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "TestBinary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "DoubleLinkedList",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "PopSort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C_Code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_Code-Debug-46b11f98f07027bf2b4f.json",
+					"name" : "C_Code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "DoubleLinkedList::@de2b18c20485b10103a3",
+					"jsonFile" : "target-DoubleLinkedList-Debug-83bea9682df09dd7b91e.json",
+					"name" : "DoubleLinkedList",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FileDemo::@8f1f4ea12543474272f5",
+					"jsonFile" : "target-FileDemo-Debug-3f05b9b561e9665945cf.json",
+					"name" : "FileDemo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LinkList::@b919786565bb8542e6ca",
+					"jsonFile" : "target-LinkList-Debug-ffc0f77653964778bdd8.json",
+					"name" : "LinkList",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PopSort::@b47e7ea5df1ea1e0965f",
+					"jsonFile" : "target-PopSort-Debug-ccf2765940c2eb608059.json",
+					"name" : "PopSort",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TestBinary::@c79ff1f2bbf2348afafc",
+					"jsonFile" : "target-TestBinary-Debug-88e5077061b00ab05589.json",
+					"name" : "TestBinary",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "A:/C_Code/cmake-build-debug",
+		"source" : "A:/C_Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

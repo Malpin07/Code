@@ -1,0 +1,18 @@
+# ninja log v5
+5	303	7398606826407706	LinkList/CMakeFiles/LinkList.dir/myList.c.obj	86a4cde1a142b4ea
+5	152	7398606937571485	LinkList/CMakeFiles/LinkList.dir/LinkList.c.obj	bab4018dbb5d6f1a
+10	387	7400730841008565	CMakeFiles/C_Code.dir/main.c.obj	f6aafdf92d42ccee
+2	686	7401160455202310	build.ninja	591025fb37a1947d
+389	896	7400730846061869	C_Code.exe	d0587a0348f014df
+153	437	7398606940371447	LinkList/LinkList.exe	e303f8e23352ccb2
+216	725	7398172084188391	FileDemo/FileDemo.exe	cb8d8765cc324b3e
+6	215	7398172081024332	FileDemo/CMakeFiles/FileDemo.dir/main.c.obj	9b4faab7a839b82
+5	197	7398184794599166	TestBinary/CMakeFiles/TestBinary.dir/TestBinary.c.obj	5d89289b10469f58
+198	508	7398184797677711	TestBinary/TestBinary.exe	f2b2db137153990f
+3	145	7398628514278851	DoubleLinkedList/CMakeFiles/DoubleLinkedList.dir/main.c.obj	60151a8423fa5fd0
+12	170	7398628514526493	DoubleLinkedList/CMakeFiles/DoubleLinkedList.dir/DoubleLinkedList.c.obj	c52290d511265f13
+170	473	7398628517452024	DoubleLinkedList/DoubleLinkedList.exe	bdebd2b02a8ccc30
+10	180	7400779057371914	Sort/CMakeFiles/Sort.dir/main.c.obj	f5d7df3671ba2f47
+205	510	7400794748472242	Sort/PopSort/PopSort.exe	ce7bc1c64229e46e
+182	496	7400779060448713	Sort/Sort.exe	3543fa07fe7cf40a
+9	203	7400794745470758	Sort/PopSort/CMakeFiles/PopSort.dir/main.c.obj	d2c8414f2321ed76
