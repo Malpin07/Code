@@ -16,3 +16,15 @@ A:/C_Code/cmake-build-debug/DoubleLinkedList/CMakeFiles/rebuild_cache.dir
 A:/C_Code/cmake-build-debug/Sort/PopSort/CMakeFiles/PopSort.dir
 A:/C_Code/cmake-build-debug/Sort/PopSort/CMakeFiles/edit_cache.dir
 A:/C_Code/cmake-build-debug/Sort/PopSort/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Sort/SelectSort/CMakeFiles/SelectSort.dir
+A:/C_Code/cmake-build-debug/Sort/SelectSort/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Sort/SelectSort/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Sort/QuickSort/CMakeFiles/QuickSort.dir
+A:/C_Code/cmake-build-debug/Sort/QuickSort/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Sort/QuickSort/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Search/BinarySearch/CMakeFiles/BinarySearch.dir
+A:/C_Code/cmake-build-debug/Search/BinarySearch/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Search/BinarySearch/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/StringTest.dir
+A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/rebuild_cache.dir

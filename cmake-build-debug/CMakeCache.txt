@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BinarySearch_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Search/BinarySearch
+
+//Value Computed by CMake
+BinarySearch_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+BinarySearch_SOURCE_DIR:STATIC=A:/C_Code/Search/BinarySearch
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=A:/CLion 2024.1.1/bin/mingw/bin/addr2line.exe
 
@@ -268,6 +277,24 @@ PopSort_IS_TOP_LEVEL:STATIC=OFF
 PopSort_SOURCE_DIR:STATIC=A:/C_Code/Sort/PopSort
 
 //Value Computed by CMake
+QuickSort_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Sort/QuickSort
+
+//Value Computed by CMake
+QuickSort_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+QuickSort_SOURCE_DIR:STATIC=A:/C_Code/Sort/QuickSort
+
+//Value Computed by CMake
+SelectSort_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Sort/SelectSort
+
+//Value Computed by CMake
+SelectSort_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+SelectSort_SOURCE_DIR:STATIC=A:/C_Code/Sort/SelectSort
+
+//Value Computed by CMake
 Sort_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Sort
 
 //Value Computed by CMake
@@ -275,6 +302,15 @@ Sort_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Sort_SOURCE_DIR:STATIC=A:/C_Code/Sort
+
+//Value Computed by CMake
+StringTest_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/StringTest
+
+//Value Computed by CMake
+StringTest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+StringTest_SOURCE_DIR:STATIC=A:/C_Code/StringTest
 
 //Value Computed by CMake
 TestBinary_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/TestBinary
@@ -370,7 +406,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

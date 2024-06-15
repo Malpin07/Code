@@ -421,7 +421,266 @@ build Sort/PopSort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Sort/PopSort/rebuild_cache: phony Sort/PopSort/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SelectSort
+
+
+#############################################
+# Order-only phony target for SelectSort
+
+build cmake_object_order_depends_target_SelectSort: phony || Sort/SelectSort/CMakeFiles/SelectSort.dir
+
+build Sort/SelectSort/CMakeFiles/SelectSort.dir/main.c.obj: C_COMPILER__SelectSort_unscanned_Debug A$:/C_Code/Sort/SelectSort/main.c || cmake_object_order_depends_target_SelectSort
+  DEP_FILE = Sort\SelectSort\CMakeFiles\SelectSort.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/Sort/SelectSort/.
+  OBJECT_DIR = Sort\SelectSort\CMakeFiles\SelectSort.dir
+  OBJECT_FILE_DIR = Sort\SelectSort\CMakeFiles\SelectSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SelectSort
+
+
+#############################################
+# Link the executable Sort\SelectSort\SelectSort.exe
+
+build Sort/SelectSort/SelectSort.exe: C_EXECUTABLE_LINKER__SelectSort_Debug Sort/SelectSort/CMakeFiles/SelectSort.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Sort\SelectSort\CMakeFiles\SelectSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sort\SelectSort\SelectSort.exe
+  TARGET_IMPLIB = Sort\SelectSort\libSelectSort.dll.a
+  TARGET_PDB = SelectSort.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Sort/SelectSort/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Sort\SelectSort && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Sort/SelectSort/edit_cache: phony Sort/SelectSort/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Sort/SelectSort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Sort\SelectSort && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Sort/SelectSort/rebuild_cache: phony Sort/SelectSort/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Order-only phony target for QuickSort
+
+build cmake_object_order_depends_target_QuickSort: phony || Sort/QuickSort/CMakeFiles/QuickSort.dir
+
+build Sort/QuickSort/CMakeFiles/QuickSort.dir/main.c.obj: C_COMPILER__QuickSort_unscanned_Debug A$:/C_Code/Sort/QuickSort/main.c || cmake_object_order_depends_target_QuickSort
+  DEP_FILE = Sort\QuickSort\CMakeFiles\QuickSort.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/Sort/QuickSort/.
+  OBJECT_DIR = Sort\QuickSort\CMakeFiles\QuickSort.dir
+  OBJECT_FILE_DIR = Sort\QuickSort\CMakeFiles\QuickSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Link the executable Sort\QuickSort\QuickSort.exe
+
+build Sort/QuickSort/QuickSort.exe: C_EXECUTABLE_LINKER__QuickSort_Debug Sort/QuickSort/CMakeFiles/QuickSort.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Sort\QuickSort\CMakeFiles\QuickSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sort\QuickSort\QuickSort.exe
+  TARGET_IMPLIB = Sort\QuickSort\libQuickSort.dll.a
+  TARGET_PDB = QuickSort.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Sort/QuickSort/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Sort\QuickSort && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Sort/QuickSort/edit_cache: phony Sort/QuickSort/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Sort/QuickSort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Sort\QuickSort && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Sort/QuickSort/rebuild_cache: phony Sort/QuickSort/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Order-only phony target for BinarySearch
+
+build cmake_object_order_depends_target_BinarySearch: phony || Search/BinarySearch/CMakeFiles/BinarySearch.dir
+
+build Search/BinarySearch/CMakeFiles/BinarySearch.dir/BinarySearch.c.obj: C_COMPILER__BinarySearch_unscanned_Debug A$:/C_Code/Search/BinarySearch/BinarySearch.c || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = Search\BinarySearch\CMakeFiles\BinarySearch.dir\BinarySearch.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/Search/BinarySearch/.
+  OBJECT_DIR = Search\BinarySearch\CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = Search\BinarySearch\CMakeFiles\BinarySearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Link the executable Search\BinarySearch\BinarySearch.exe
+
+build Search/BinarySearch/BinarySearch.exe: C_EXECUTABLE_LINKER__BinarySearch_Debug Search/BinarySearch/CMakeFiles/BinarySearch.dir/BinarySearch.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Search\BinarySearch\CMakeFiles\BinarySearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Search\BinarySearch\BinarySearch.exe
+  TARGET_IMPLIB = Search\BinarySearch\libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Search/BinarySearch/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Search\BinarySearch && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Search/BinarySearch/edit_cache: phony Search/BinarySearch/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Search/BinarySearch/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\Search\BinarySearch && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Search/BinarySearch/rebuild_cache: phony Search/BinarySearch/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StringTest
+
+
+#############################################
+# Order-only phony target for StringTest
+
+build cmake_object_order_depends_target_StringTest: phony || StringTest/CMakeFiles/StringTest.dir
+
+build StringTest/CMakeFiles/StringTest.dir/main.c.obj: C_COMPILER__StringTest_unscanned_Debug A$:/C_Code/StringTest/main.c || cmake_object_order_depends_target_StringTest
+  DEP_FILE = StringTest\CMakeFiles\StringTest.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/StringTest/.
+  OBJECT_DIR = StringTest\CMakeFiles\StringTest.dir
+  OBJECT_FILE_DIR = StringTest\CMakeFiles\StringTest.dir
+
+build StringTest/CMakeFiles/StringTest.dir/mystring.c.obj: C_COMPILER__StringTest_unscanned_Debug A$:/C_Code/StringTest/mystring.c || cmake_object_order_depends_target_StringTest
+  DEP_FILE = StringTest\CMakeFiles\StringTest.dir\mystring.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/StringTest/.
+  OBJECT_DIR = StringTest\CMakeFiles\StringTest.dir
+  OBJECT_FILE_DIR = StringTest\CMakeFiles\StringTest.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StringTest
+
+
+#############################################
+# Link the executable StringTest\StringTest.exe
+
+build StringTest/StringTest.exe: C_EXECUTABLE_LINKER__StringTest_Debug StringTest/CMakeFiles/StringTest.dir/main.c.obj StringTest/CMakeFiles/StringTest.dir/mystring.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = StringTest\CMakeFiles\StringTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StringTest\StringTest.exe
+  TARGET_IMPLIB = StringTest\libStringTest.dll.a
+  TARGET_PDB = StringTest.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build StringTest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\StringTest && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build StringTest/edit_cache: phony StringTest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build StringTest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\StringTest && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build StringTest/rebuild_cache: phony StringTest/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build BinarySearch: phony Search/BinarySearch/BinarySearch.exe
+
+build BinarySearch.exe: phony Search/BinarySearch/BinarySearch.exe
 
 build C_Code: phony C_Code.exe
 
@@ -441,6 +700,18 @@ build PopSort: phony Sort/PopSort/PopSort.exe
 
 build PopSort.exe: phony Sort/PopSort/PopSort.exe
 
+build QuickSort: phony Sort/QuickSort/QuickSort.exe
+
+build QuickSort.exe: phony Sort/QuickSort/QuickSort.exe
+
+build SelectSort: phony Sort/SelectSort/SelectSort.exe
+
+build SelectSort.exe: phony Sort/SelectSort/SelectSort.exe
+
+build StringTest: phony StringTest/StringTest.exe
+
+build StringTest.exe: phony StringTest/StringTest.exe
+
 build TestBinary: phony TestBinary/TestBinary.exe
 
 build TestBinary.exe: phony TestBinary/TestBinary.exe
@@ -453,7 +724,7 @@ build TestBinary.exe: phony TestBinary/TestBinary.exe
 #############################################
 # Folder: A:/C_Code/cmake-build-debug
 
-build all: phony C_Code.exe LinkList/all FileDemo/all TestBinary/all DoubleLinkedList/all Sort/PopSort/all
+build all: phony C_Code.exe LinkList/all FileDemo/all TestBinary/all DoubleLinkedList/all Sort/PopSort/all Sort/SelectSort/all Sort/QuickSort/all Search/BinarySearch/all StringTest/all
 
 # =============================================================================
 
@@ -479,9 +750,37 @@ build LinkList/all: phony LinkList/LinkList.exe
 # =============================================================================
 
 #############################################
+# Folder: A:/C_Code/cmake-build-debug/Search/BinarySearch
+
+build Search/BinarySearch/all: phony Search/BinarySearch/BinarySearch.exe
+
+# =============================================================================
+
+#############################################
 # Folder: A:/C_Code/cmake-build-debug/Sort/PopSort
 
 build Sort/PopSort/all: phony Sort/PopSort/PopSort.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/Sort/QuickSort
+
+build Sort/QuickSort/all: phony Sort/QuickSort/QuickSort.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/Sort/SelectSort
+
+build Sort/SelectSort/all: phony Sort/SelectSort/SelectSort.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/StringTest
+
+build StringTest/all: phony StringTest/StringTest.exe
 
 # =============================================================================
 
@@ -497,14 +796,14 @@ build TestBinary/all: phony TestBinary/TestBinary.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

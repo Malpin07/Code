@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "BinarySearch_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/cmake-build-debug/Search/BinarySearch"
+		},
+		{
+			"name" : "BinarySearch_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "BinarySearch_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/Search/BinarySearch"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -651,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1342,6 +1378,78 @@
 			"value" : "A:/C_Code/Sort/PopSort"
 		},
 		{
+			"name" : "QuickSort_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/cmake-build-debug/Sort/QuickSort"
+		},
+		{
+			"name" : "QuickSort_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "QuickSort_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/Sort/QuickSort"
+		},
+		{
+			"name" : "SelectSort_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/cmake-build-debug/Sort/SelectSort"
+		},
+		{
+			"name" : "SelectSort_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SelectSort_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/Sort/SelectSort"
+		},
+		{
 			"name" : "Sort_BINARY_DIR",
 			"properties" : 
 			[
@@ -1376,6 +1484,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "A:/C_Code/Sort"
+		},
+		{
+			"name" : "StringTest_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/cmake-build-debug/StringTest"
+		},
+		{
+			"name" : "StringTest_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "StringTest_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "A:/C_Code/StringTest"
 		},
 		{
 			"name" : "TestBinary_BINARY_DIR",

@@ -12,7 +12,11 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -23,7 +27,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -38,7 +42,7 @@
 					"source" : "LinkList",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -53,7 +57,7 @@
 					"source" : "FileDemo",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -68,7 +72,7 @@
 					"source" : "TestBinary",
 					"targetIndexes" : 
 					[
-						5
+						9
 					]
 				},
 				{
@@ -83,7 +87,7 @@
 					"source" : "DoubleLinkedList",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -98,7 +102,67 @@
 					"source" : "Sort/PopSort",
 					"targetIndexes" : 
 					[
-						4
+						5
+					]
+				},
+				{
+					"build" : "Sort/SelectSort",
+					"jsonFile" : "directory-Sort.SelectSort-Debug-a1492975129321bedd0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Sort/SelectSort",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Sort/QuickSort",
+					"jsonFile" : "directory-Sort.QuickSort-Debug-0c29ef67ac2b3b0ec0fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Sort/QuickSort",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Search/BinarySearch",
+					"jsonFile" : "directory-Search.BinarySearch-Debug-1c2b8a83842187fe0701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Search/BinarySearch",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "StringTest",
+					"jsonFile" : "directory-StringTest-Debug-d27300a1291d8c9a9037.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "StringTest",
+					"targetIndexes" : 
+					[
+						8
 					]
 				}
 			],
@@ -112,7 +176,11 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9
 					],
 					"directoryIndexes" : 
 					[
@@ -121,7 +189,7 @@
 					"name" : "C_Code",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -133,7 +201,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -145,7 +213,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -157,7 +225,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						9
 					]
 				},
 				{
@@ -169,7 +237,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -181,12 +249,67 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SelectSort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "QuickSort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "BinarySearch",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "StringTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 8,
+					"id" : "BinarySearch::@714519fd78c19c11cbc8",
+					"jsonFile" : "target-BinarySearch-Debug-90b53e0959cf32d5db12.json",
+					"name" : "BinarySearch",
+					"projectIndex" : 8
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "C_Code::@6890427a1f51a3e7e1df",
@@ -221,6 +344,27 @@
 					"jsonFile" : "target-PopSort-Debug-ccf2765940c2eb608059.json",
 					"name" : "PopSort",
 					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "QuickSort::@373ddc737c790d1db4da",
+					"jsonFile" : "target-QuickSort-Debug-f394dd164b2ea2543a92.json",
+					"name" : "QuickSort",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SelectSort::@858a77417ef1d254432f",
+					"jsonFile" : "target-SelectSort-Debug-791efc3e9598ab1ad9fd.json",
+					"name" : "SelectSort",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "StringTest::@8543ffc7d69a82c789bc",
+					"jsonFile" : "target-StringTest-Debug-a1a173f12544241e6bdc.json",
+					"name" : "StringTest",
+					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 3,

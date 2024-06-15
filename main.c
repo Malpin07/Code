@@ -1,8 +1,5 @@
 #include <stdio.h>
 int  main(int argc,char *argv[] ,char *evn[]){
-    while (*evn){
 
-        printf("%s:\n",*evn++);
-    }
 
 }

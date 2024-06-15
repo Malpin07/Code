@@ -24,7 +24,7 @@ int pf(int a, int b){
 }
 
 int  main(int argc,char *argv[] ,char *evn[]){
-    int arr[] = {64, 34, 25, 12, 22, 11, 11};
+    int arr[] = {64, 1134, 245, 1112, 422, 11, 11};
     int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr, n, pf);
     printf("Sorted array:");

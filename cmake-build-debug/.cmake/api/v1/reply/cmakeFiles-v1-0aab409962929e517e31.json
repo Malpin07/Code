@@ -120,6 +120,18 @@
 		},
 		{
 			"path" : "Sort/PopSort/CMakeLists.txt"
+		},
+		{
+			"path" : "Sort/SelectSort/CMakeLists.txt"
+		},
+		{
+			"path" : "Sort/QuickSort/CMakeLists.txt"
+		},
+		{
+			"path" : "Search/BinarySearch/CMakeLists.txt"
+		},
+		{
+			"path" : "StringTest/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
