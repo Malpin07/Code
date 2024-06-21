@@ -20,6 +20,7 @@ void bubbleSort(int *p, int n,int (*pf)(int, int)){
 }
 //比较函数
 int pf(int a, int b){
+
     return a > b? 1 : 0;
 }
 

@@ -2,36 +2,29 @@
 #include <string.h>
 int main()
 {
+    char buf[] = "aaaaaaaaaa@bbbbbbbbbbbb@ccccccccccc@ddddddddd";
+    char delim[] = "@"; // "@#"
+    int size = sizeof(buf);
 
+    for(int i=0; i<size; i++)
+        printf("%c",buf[i]);
+    putchar(10);
+    strtok(buf,delim);
 
-        char buf[] = "sys:x:3:3:Ownerofsystemfiles:/usr/sys:";
-        char *p = strtok(buf,":");
-        while(p != NULL)
-        {
-            printf("%s\n",p);
-            p = strtok(NULL,":");
-        }
-        return 0;
+    for(int i=0; i<size; i++)
+        printf("%c",buf[i]);
+    putchar(10);
+    strtok(NULL,delim); // strtok(buf,delim);
 
+    for(int i=0; i<size; i++)
+        printf("%c",buf[i]);
+    putchar(10);
+
+    strtok(NULL,delim); // strtok(buf,delim);
+
+    for(int i=0; i<size; i++)
+        printf("%c",buf[i]);
+    putchar(10);
+//第一个或是最后一个是分隔符，如何
+    return 0;
 }
-
-char * myStrstr(char *s1,char *s2)
-{
-    if(*s2) //查找的数据为空
-    {
-        while(*s1)
-        {
-            for(int n=0;*(s1+n) == *(s2+n); n++)
-            {
-                if(*(s2+n+1) == '\0')
-                    return s1;
-            }
-            s1++;
-        }
-        return NULL;
-    }
-    else
-        return NULL;
-}
-
-

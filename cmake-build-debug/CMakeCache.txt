@@ -241,6 +241,24 @@ DataStruct_IS_TOP_LEVEL:STATIC=OFF
 DataStruct_SOURCE_DIR:STATIC=A:/C_Code/LinkList
 
 //Value Computed by CMake
+DblStack_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/DblStack
+
+//Value Computed by CMake
+DblStack_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+DblStack_SOURCE_DIR:STATIC=A:/C_Code/DblStack
+
+//Value Computed by CMake
+DeepSearch_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Search/DeepSearch
+
+//Value Computed by CMake
+DeepSearch_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+DeepSearch_SOURCE_DIR:STATIC=A:/C_Code/Search/DeepSearch
+
+//Value Computed by CMake
 DoubleLinkedList_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/DoubleLinkedList
 
 //Value Computed by CMake
@@ -277,6 +295,15 @@ PopSort_IS_TOP_LEVEL:STATIC=OFF
 PopSort_SOURCE_DIR:STATIC=A:/C_Code/Sort/PopSort
 
 //Value Computed by CMake
+Queue_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Queue
+
+//Value Computed by CMake
+Queue_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Queue_SOURCE_DIR:STATIC=A:/C_Code/Queue
+
+//Value Computed by CMake
 QuickSort_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Sort/QuickSort
 
 //Value Computed by CMake
@@ -302,6 +329,15 @@ Sort_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Sort_SOURCE_DIR:STATIC=A:/C_Code/Sort
+
+//Value Computed by CMake
+Stack_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/Stack
+
+//Value Computed by CMake
+Stack_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Stack_SOURCE_DIR:STATIC=A:/C_Code/Stack
 
 //Value Computed by CMake
 StringTest_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/StringTest
@@ -406,7 +442,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

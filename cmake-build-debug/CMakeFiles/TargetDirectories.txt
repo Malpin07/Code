@@ -28,3 +28,15 @@ A:/C_Code/cmake-build-debug/Search/BinarySearch/CMakeFiles/rebuild_cache.dir
 A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/StringTest.dir
 A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/edit_cache.dir
 A:/C_Code/cmake-build-debug/StringTest/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Stack/CMakeFiles/Stack.dir
+A:/C_Code/cmake-build-debug/Stack/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Stack/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/DblStack/CMakeFiles/DblStack.dir
+A:/C_Code/cmake-build-debug/DblStack/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/DblStack/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Search/DeepSearch/CMakeFiles/DeepSearch.dir
+A:/C_Code/cmake-build-debug/Search/DeepSearch/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Search/DeepSearch/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/Queue/CMakeFiles/Queue.dir
+A:/C_Code/cmake-build-debug/Queue/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/Queue/CMakeFiles/rebuild_cache.dir

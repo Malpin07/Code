@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <fcntl.h>
 // 定义学生结构体
 typedef struct student{
     char name[30];
@@ -41,6 +41,7 @@ void initDataToFiles(){
 
 // 读取文件中的数据生成链表
 StuNode* readDataFromFiles(char* fileName){
+
     // 打开文件
     FILE *fp = fopen(fileName, "r+");
     if (fp == NULL){
