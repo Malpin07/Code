@@ -10,7 +10,7 @@ typedef struct _Stack{
     int _len;
     int _top;
     ElemType * _space;
-}Stack;
+}myQueue;
 
 //初始化
 void initStack();
@@ -19,13 +19,13 @@ bool isStackFull();
 //判断是否空
 bool isStackEmpty();
 //压栈
-void push(Stack*,ElemType);
+void push(myQueue*,ElemType);
 //弹栈
-ElemType pop(Stack*);
+ElemType pop(myQueue*);
 //复位栈
-void resetStack(Stack*);
+void resetStack(myQueue*);
 //清空栈
-void clearStack(Stack*);
+void clearStack(myQueue*);
 
 */
 //链式存储
@@ -38,7 +38,7 @@ typedef struct _Node{
     struct _Node* next;
 }Node;
 
-typedef struct Stack{
+typedef struct myQueue{
     Node * top;
 }Stack;
 
@@ -47,7 +47,7 @@ void initStack(Stack*);
 //判断是否空
 bool isStackEmpty(Stack*);
 //压栈
-void push(Stack*,Point);
+void push(Stack*, Point);
 //弹栈
 Point pop(Stack*);
 //复位栈

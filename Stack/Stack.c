@@ -13,7 +13,7 @@ bool isStackEmpty(Stack *s){
 }
 
 //压栈
-void push(Stack* s,ElemType data){
+void push(Stack* s, ElemType data){
     Node * cur=(Node *)malloc(sizeof(Node));
     cur->data=data;
     cur->next=s->top->next;

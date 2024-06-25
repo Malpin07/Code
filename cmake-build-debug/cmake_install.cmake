@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "A:/CLion 2024.1.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "A:/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -100,6 +100,41 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("A:/C_Code/cmake-build-debug/Queue/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/homeWork/homeWork1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/homeWork/homeWork3/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/Queue/QueueLink/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/Search/WideSearch/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/tree/demo1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/tree/TwoForkTree/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/tree/BinarySearchTree/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
