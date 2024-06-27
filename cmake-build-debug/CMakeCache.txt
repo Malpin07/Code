@@ -394,6 +394,24 @@ homeWork3_IS_TOP_LEVEL:STATIC=OFF
 homeWork3_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork3
 
 //Value Computed by CMake
+homework4_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homework4
+
+//Value Computed by CMake
+homework4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+homework4_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork4
+
+//Value Computed by CMake
+mockCMD_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/IO/TinyShell
+
+//Value Computed by CMake
+mockCMD_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mockCMD_SOURCE_DIR:STATIC=A:/C_Code/IO/TinyShell
+
+//Value Computed by CMake
 treeDEMO1_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/tree/demo1
 
 //Value Computed by CMake
@@ -487,7 +505,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

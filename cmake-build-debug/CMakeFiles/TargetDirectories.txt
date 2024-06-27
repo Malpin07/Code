@@ -46,6 +46,9 @@ A:/C_Code/cmake-build-debug/homeWork/homeWork1/CMakeFiles/rebuild_cache.dir
 A:/C_Code/cmake-build-debug/homeWork/homeWork3/CMakeFiles/homeWork3.dir
 A:/C_Code/cmake-build-debug/homeWork/homeWork3/CMakeFiles/edit_cache.dir
 A:/C_Code/cmake-build-debug/homeWork/homeWork3/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/homeWork/homework4/CMakeFiles/homework4.dir
+A:/C_Code/cmake-build-debug/homeWork/homework4/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/homeWork/homework4/CMakeFiles/rebuild_cache.dir
 A:/C_Code/cmake-build-debug/Queue/QueueLink/CMakeFiles/QueueLink.dir
 A:/C_Code/cmake-build-debug/Queue/QueueLink/CMakeFiles/edit_cache.dir
 A:/C_Code/cmake-build-debug/Queue/QueueLink/CMakeFiles/rebuild_cache.dir
@@ -61,3 +64,6 @@ A:/C_Code/cmake-build-debug/tree/TwoForkTree/CMakeFiles/rebuild_cache.dir
 A:/C_Code/cmake-build-debug/tree/BinarySearchTree/CMakeFiles/BinarySearchTree.dir
 A:/C_Code/cmake-build-debug/tree/BinarySearchTree/CMakeFiles/edit_cache.dir
 A:/C_Code/cmake-build-debug/tree/BinarySearchTree/CMakeFiles/rebuild_cache.dir
+A:/C_Code/cmake-build-debug/IO/TinyShell/CMakeFiles/mockCMD.dir
+A:/C_Code/cmake-build-debug/IO/TinyShell/CMakeFiles/edit_cache.dir
+A:/C_Code/cmake-build-debug/IO/TinyShell/CMakeFiles/rebuild_cache.dir

@@ -114,6 +114,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/homeWork/homework4/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("A:/C_Code/cmake-build-debug/Queue/QueueLink/cmake_install.cmake")
 endif()
 
@@ -135,6 +140,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("A:/C_Code/cmake-build-debug/tree/BinarySearchTree/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("A:/C_Code/cmake-build-debug/IO/TinyShell/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
