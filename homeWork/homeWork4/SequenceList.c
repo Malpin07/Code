@@ -211,6 +211,7 @@ int overturn_list(list_t *L){
         return INFEASIBLE;
     }
 
+
     int temp= L->count-1;
     for (int i = 0; i < temp/2; ++i) {
         L->s[i].data=L->s[i].data ^ L->s[temp-i].data;
