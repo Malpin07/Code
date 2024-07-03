@@ -1,3 +1,21 @@
+<!-- TOC -->
+* [c语言的存储类型-存储类](#c语言的存储类型-存储类)
+  * [基本类型](#基本类型)
+  * [复合类型](#复合类型)
+  * [存储类](#存储类)
+  * [C11 C99 新增关键字](#c11-c99-新增关键字-)
+* [存储类](#存储类-1)
+  * [auto](#auto)
+  * [static](#static)
+  * [register](#register)
+  * [extern](#extern)
+  * [typedef](#typedef)
+    * [结构体和typedef](#结构体和typedef)
+  * [volatile](#volatile)
+    * [volatile使用的场景](#volatile使用的场景)
+  * [const](#const)
+<!-- TOC -->
+
 # c语言的存储类型-存储类
 
 ## 基本类型

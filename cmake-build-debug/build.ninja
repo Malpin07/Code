@@ -1192,6 +1192,213 @@ build homeWork/homework4/rebuild_cache: phony homeWork/homework4/CMakeFiles/rebu
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target homeWork5
+
+
+#############################################
+# Order-only phony target for homeWork5
+
+build cmake_object_order_depends_target_homeWork5: phony || homeWork/homeWork5/CMakeFiles/homeWork5.dir
+
+build homeWork/homeWork5/CMakeFiles/homeWork5.dir/main.c.obj: C_COMPILER__homeWork5_unscanned_Debug A$:/C_Code/homeWork/homeWork5/main.c || cmake_object_order_depends_target_homeWork5
+  DEP_FILE = homeWork\homeWork5\CMakeFiles\homeWork5.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork5/.
+  OBJECT_DIR = homeWork\homeWork5\CMakeFiles\homeWork5.dir
+  OBJECT_FILE_DIR = homeWork\homeWork5\CMakeFiles\homeWork5.dir
+
+build homeWork/homeWork5/CMakeFiles/homeWork5.dir/link_list.c.obj: C_COMPILER__homeWork5_unscanned_Debug A$:/C_Code/homeWork/homeWork5/link_list.c || cmake_object_order_depends_target_homeWork5
+  DEP_FILE = homeWork\homeWork5\CMakeFiles\homeWork5.dir\link_list.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork5/.
+  OBJECT_DIR = homeWork\homeWork5\CMakeFiles\homeWork5.dir
+  OBJECT_FILE_DIR = homeWork\homeWork5\CMakeFiles\homeWork5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homeWork5
+
+
+#############################################
+# Link the executable homeWork\homeWork5\homeWork5.exe
+
+build homeWork/homeWork5/homeWork5.exe: C_EXECUTABLE_LINKER__homeWork5_Debug homeWork/homeWork5/CMakeFiles/homeWork5.dir/main.c.obj homeWork/homeWork5/CMakeFiles/homeWork5.dir/link_list.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homeWork\homeWork5\CMakeFiles\homeWork5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homeWork\homeWork5\homeWork5.exe
+  TARGET_IMPLIB = homeWork\homeWork5\libhomeWork5.dll.a
+  TARGET_PDB = homeWork5.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homeWork/homeWork5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork5 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homeWork/homeWork5/edit_cache: phony homeWork/homeWork5/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homeWork/homeWork5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork5 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homeWork/homeWork5/rebuild_cache: phony homeWork/homeWork5/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homeWork6
+
+
+#############################################
+# Order-only phony target for homeWork6
+
+build cmake_object_order_depends_target_homeWork6: phony || homeWork/homeWork6/CMakeFiles/homeWork6.dir
+
+build homeWork/homeWork6/CMakeFiles/homeWork6.dir/main.c.obj: C_COMPILER__homeWork6_unscanned_Debug A$:/C_Code/homeWork/homeWork6/main.c || cmake_object_order_depends_target_homeWork6
+  DEP_FILE = homeWork\homeWork6\CMakeFiles\homeWork6.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork6/.
+  OBJECT_DIR = homeWork\homeWork6\CMakeFiles\homeWork6.dir
+  OBJECT_FILE_DIR = homeWork\homeWork6\CMakeFiles\homeWork6.dir
+
+build homeWork/homeWork6/CMakeFiles/homeWork6.dir/link_stack.c.obj: C_COMPILER__homeWork6_unscanned_Debug A$:/C_Code/homeWork/homeWork6/link_stack.c || cmake_object_order_depends_target_homeWork6
+  DEP_FILE = homeWork\homeWork6\CMakeFiles\homeWork6.dir\link_stack.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork6/.
+  OBJECT_DIR = homeWork\homeWork6\CMakeFiles\homeWork6.dir
+  OBJECT_FILE_DIR = homeWork\homeWork6\CMakeFiles\homeWork6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homeWork6
+
+
+#############################################
+# Link the executable homeWork\homeWork6\homeWork6.exe
+
+build homeWork/homeWork6/homeWork6.exe: C_EXECUTABLE_LINKER__homeWork6_Debug homeWork/homeWork6/CMakeFiles/homeWork6.dir/main.c.obj homeWork/homeWork6/CMakeFiles/homeWork6.dir/link_stack.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homeWork\homeWork6\CMakeFiles\homeWork6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homeWork\homeWork6\homeWork6.exe
+  TARGET_IMPLIB = homeWork\homeWork6\libhomeWork6.dll.a
+  TARGET_PDB = homeWork6.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homeWork/homeWork6/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork6 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homeWork/homeWork6/edit_cache: phony homeWork/homeWork6/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homeWork/homeWork6/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork6 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homeWork/homeWork6/rebuild_cache: phony homeWork/homeWork6/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homeWork7
+
+
+#############################################
+# Order-only phony target for homeWork7
+
+build cmake_object_order_depends_target_homeWork7: phony || homeWork/homeWork7/CMakeFiles/homeWork7.dir
+
+build homeWork/homeWork7/CMakeFiles/homeWork7.dir/main.c.obj: C_COMPILER__homeWork7_unscanned_Debug A$:/C_Code/homeWork/homeWork7/main.c || cmake_object_order_depends_target_homeWork7
+  DEP_FILE = homeWork\homeWork7\CMakeFiles\homeWork7.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork7/.
+  OBJECT_DIR = homeWork\homeWork7\CMakeFiles\homeWork7.dir
+  OBJECT_FILE_DIR = homeWork\homeWork7\CMakeFiles\homeWork7.dir
+
+build homeWork/homeWork7/CMakeFiles/homeWork7.dir/link_list.c.obj: C_COMPILER__homeWork7_unscanned_Debug A$:/C_Code/homeWork/homeWork7/link_list.c || cmake_object_order_depends_target_homeWork7
+  DEP_FILE = homeWork\homeWork7\CMakeFiles\homeWork7.dir\link_list.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork7/.
+  OBJECT_DIR = homeWork\homeWork7\CMakeFiles\homeWork7.dir
+  OBJECT_FILE_DIR = homeWork\homeWork7\CMakeFiles\homeWork7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homeWork7
+
+
+#############################################
+# Link the executable homeWork\homeWork7\homeWork7.exe
+
+build homeWork/homeWork7/homeWork7.exe: C_EXECUTABLE_LINKER__homeWork7_Debug homeWork/homeWork7/CMakeFiles/homeWork7.dir/main.c.obj homeWork/homeWork7/CMakeFiles/homeWork7.dir/link_list.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homeWork\homeWork7\CMakeFiles\homeWork7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homeWork\homeWork7\homeWork7.exe
+  TARGET_IMPLIB = homeWork\homeWork7\libhomeWork7.dll.a
+  TARGET_PDB = homeWork7.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homeWork/homeWork7/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork7 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homeWork/homeWork7/edit_cache: phony homeWork/homeWork7/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homeWork/homeWork7/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork7 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homeWork/homeWork7/rebuild_cache: phony homeWork/homeWork7/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target QueueLink
 
 
@@ -1615,6 +1822,75 @@ build IO/TinyShell/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build IO/TinyShell/rebuild_cache: phony IO/TinyShell/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# A:/C_Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homeWork8
+
+
+#############################################
+# Order-only phony target for homeWork8
+
+build cmake_object_order_depends_target_homeWork8: phony || homeWork/homeWork8/CMakeFiles/homeWork8.dir
+
+build homeWork/homeWork8/CMakeFiles/homeWork8.dir/main.c.obj: C_COMPILER__homeWork8_unscanned_Debug A$:/C_Code/homeWork/homeWork8/main.c || cmake_object_order_depends_target_homeWork8
+  DEP_FILE = homeWork\homeWork8\CMakeFiles\homeWork8.dir\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork8/.
+  OBJECT_DIR = homeWork\homeWork8\CMakeFiles\homeWork8.dir
+  OBJECT_FILE_DIR = homeWork\homeWork8\CMakeFiles\homeWork8.dir
+
+build homeWork/homeWork8/CMakeFiles/homeWork8.dir/link_queue.c.obj: C_COMPILER__homeWork8_unscanned_Debug A$:/C_Code/homeWork/homeWork8/link_queue.c || cmake_object_order_depends_target_homeWork8
+  DEP_FILE = homeWork\homeWork8\CMakeFiles\homeWork8.dir\link_queue.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IA:/C_Code/homeWork/homeWork8/.
+  OBJECT_DIR = homeWork\homeWork8\CMakeFiles\homeWork8.dir
+  OBJECT_FILE_DIR = homeWork\homeWork8\CMakeFiles\homeWork8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homeWork8
+
+
+#############################################
+# Link the executable homeWork\homeWork8\homeWork8.exe
+
+build homeWork/homeWork8/homeWork8.exe: C_EXECUTABLE_LINKER__homeWork8_Debug homeWork/homeWork8/CMakeFiles/homeWork8.dir/main.c.obj homeWork/homeWork8/CMakeFiles/homeWork8.dir/link_queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homeWork\homeWork8\CMakeFiles\homeWork8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homeWork\homeWork8\homeWork8.exe
+  TARGET_IMPLIB = homeWork\homeWork8\libhomeWork8.dll.a
+  TARGET_PDB = homeWork8.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homeWork/homeWork8/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork8 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homeWork/homeWork8/edit_cache: phony homeWork/homeWork8/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homeWork/homeWork8/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D A:\C_Code\cmake-build-debug\homeWork\homeWork8 && "A:\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SA:\C_Code -BA:\C_Code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homeWork/homeWork8/rebuild_cache: phony homeWork/homeWork8/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build BinarySearch: phony Search/BinarySearch/BinarySearch.exe
@@ -1695,6 +1971,22 @@ build homeWork3: phony homeWork/homeWork3/homeWork3.exe
 
 build homeWork3.exe: phony homeWork/homeWork3/homeWork3.exe
 
+build homeWork5: phony homeWork/homeWork5/homeWork5.exe
+
+build homeWork5.exe: phony homeWork/homeWork5/homeWork5.exe
+
+build homeWork6: phony homeWork/homeWork6/homeWork6.exe
+
+build homeWork6.exe: phony homeWork/homeWork6/homeWork6.exe
+
+build homeWork7: phony homeWork/homeWork7/homeWork7.exe
+
+build homeWork7.exe: phony homeWork/homeWork7/homeWork7.exe
+
+build homeWork8: phony homeWork/homeWork8/homeWork8.exe
+
+build homeWork8.exe: phony homeWork/homeWork8/homeWork8.exe
+
 build homework4: phony homeWork/homework4/homework4.exe
 
 build homework4.exe: phony homeWork/homework4/homework4.exe
@@ -1715,7 +2007,7 @@ build treeDEMO1.exe: phony tree/demo1/treeDEMO1.exe
 #############################################
 # Folder: A:/C_Code/cmake-build-debug
 
-build all: phony C_Code.exe LinkList/all FileDemo/all TestBinary/all DoubleLinkedList/all Sort/PopSort/all Sort/SelectSort/all Sort/QuickSort/all Search/BinarySearch/all StringTest/all Stack/all DblStack/all Search/DeepSearch/all Queue/all homeWork/homeWork1/all homeWork/homeWork3/all homeWork/homework4/all Queue/QueueLink/all Search/WideSearch/all tree/demo1/all tree/TwoForkTree/all tree/BinarySearchTree/all IO/TinyShell/all
+build all: phony C_Code.exe LinkList/all FileDemo/all TestBinary/all DoubleLinkedList/all Sort/PopSort/all Sort/SelectSort/all Sort/QuickSort/all Search/BinarySearch/all StringTest/all Stack/all DblStack/all Search/DeepSearch/all Queue/all homeWork/homeWork1/all homeWork/homeWork3/all homeWork/homework4/all homeWork/homeWork5/all homeWork/homeWork6/all homeWork/homeWork7/all Queue/QueueLink/all Search/WideSearch/all tree/demo1/all tree/TwoForkTree/all tree/BinarySearchTree/all IO/TinyShell/all homeWork/homeWork8/all
 
 # =============================================================================
 
@@ -1846,6 +2138,34 @@ build homeWork/homeWork3/all: phony homeWork/homeWork3/homeWork3.exe
 # =============================================================================
 
 #############################################
+# Folder: A:/C_Code/cmake-build-debug/homeWork/homeWork5
+
+build homeWork/homeWork5/all: phony homeWork/homeWork5/homeWork5.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/homeWork/homeWork6
+
+build homeWork/homeWork6/all: phony homeWork/homeWork6/homeWork6.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/homeWork/homeWork7
+
+build homeWork/homeWork7/all: phony homeWork/homeWork7/homeWork7.exe
+
+# =============================================================================
+
+#############################################
+# Folder: A:/C_Code/cmake-build-debug/homeWork/homeWork8
+
+build homeWork/homeWork8/all: phony homeWork/homeWork8/homeWork8.exe
+
+# =============================================================================
+
+#############################################
 # Folder: A:/C_Code/cmake-build-debug/homeWork/homework4
 
 build homeWork/homework4/all: phony homeWork/homework4/homework4.exe
@@ -1878,14 +2198,14 @@ build tree/demo1/all: phony tree/demo1/treeDEMO1.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DblStack/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/IO/TinyShell/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Queue/CMakeLists.txt A$:/C_Code/Queue/QueueLink/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Search/DeepSearch/CMakeLists.txt A$:/C_Code/Search/WideSearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/Stack/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt A$:/C_Code/Tree/BinarySearchTree/CMakeLists.txt A$:/C_Code/Tree/TwoForkTree/CMakeLists.txt A$:/C_Code/Tree/demo1/CMakeLists.txt A$:/C_Code/homeWork/homeWork1/CMakeLists.txt A$:/C_Code/homeWork/homeWork3/CMakeLists.txt A$:/C_Code/homeWork/homeWork4/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DblStack/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/IO/TinyShell/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Queue/CMakeLists.txt A$:/C_Code/Queue/QueueLink/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Search/DeepSearch/CMakeLists.txt A$:/C_Code/Search/WideSearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/Stack/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt A$:/C_Code/Tree/BinarySearchTree/CMakeLists.txt A$:/C_Code/Tree/TwoForkTree/CMakeLists.txt A$:/C_Code/Tree/demo1/CMakeLists.txt A$:/C_Code/homeWork/homeWork1/CMakeLists.txt A$:/C_Code/homeWork/homeWork3/CMakeLists.txt A$:/C_Code/homeWork/homeWork4/CMakeLists.txt A$:/C_Code/homeWork/homeWork5/CMakeLists.txt A$:/C_Code/homeWork/homeWork6/CMakeLists.txt A$:/C_Code/homeWork/homeWork7/CMakeLists.txt A$:/C_Code/homeWork/homeWork8/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DblStack/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/IO/TinyShell/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Queue/CMakeLists.txt A$:/C_Code/Queue/QueueLink/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Search/DeepSearch/CMakeLists.txt A$:/C_Code/Search/WideSearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/Stack/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt A$:/C_Code/Tree/BinarySearchTree/CMakeLists.txt A$:/C_Code/Tree/TwoForkTree/CMakeLists.txt A$:/C_Code/Tree/demo1/CMakeLists.txt A$:/C_Code/homeWork/homeWork1/CMakeLists.txt A$:/C_Code/homeWork/homeWork3/CMakeLists.txt A$:/C_Code/homeWork/homeWork4/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake A$:/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake A$:/C_Code/CMakeLists.txt A$:/C_Code/DblStack/CMakeLists.txt A$:/C_Code/DoubleLinkedList/CMakeLists.txt A$:/C_Code/FileDemo/CMakeLists.txt A$:/C_Code/IO/TinyShell/CMakeLists.txt A$:/C_Code/LinkList/CMakeLists.txt A$:/C_Code/Queue/CMakeLists.txt A$:/C_Code/Queue/QueueLink/CMakeLists.txt A$:/C_Code/Search/BinarySearch/CMakeLists.txt A$:/C_Code/Search/DeepSearch/CMakeLists.txt A$:/C_Code/Search/WideSearch/CMakeLists.txt A$:/C_Code/Sort/PopSort/CMakeLists.txt A$:/C_Code/Sort/QuickSort/CMakeLists.txt A$:/C_Code/Sort/SelectSort/CMakeLists.txt A$:/C_Code/Stack/CMakeLists.txt A$:/C_Code/StringTest/CMakeLists.txt A$:/C_Code/TestBinary/CMakeLists.txt A$:/C_Code/Tree/BinarySearchTree/CMakeLists.txt A$:/C_Code/Tree/TwoForkTree/CMakeLists.txt A$:/C_Code/Tree/demo1/CMakeLists.txt A$:/C_Code/homeWork/homeWork1/CMakeLists.txt A$:/C_Code/homeWork/homeWork3/CMakeLists.txt A$:/C_Code/homeWork/homeWork4/CMakeLists.txt A$:/C_Code/homeWork/homeWork5/CMakeLists.txt A$:/C_Code/homeWork/homeWork6/CMakeLists.txt A$:/C_Code/homeWork/homeWork7/CMakeLists.txt A$:/C_Code/homeWork/homeWork8/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
