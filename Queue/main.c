@@ -23,7 +23,6 @@ int main() {
             enQueue(&q,i);
         }
     }
-
     while (!isQueueEmpty(&q)){
         printf("%d", deQueue(&q));
     }

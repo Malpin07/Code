@@ -167,9 +167,9 @@ void destroyLinkList(Node* head){
     }
 }
 
-#if 0
+
 //链表排序(冒泡) 常规数据交换
-void popLinkList(Node* head){
+void popLinkList1(Node* head){
     int len = lengthLinkList(head);
     head=head->next;//头节点指向下一个,跳过头节点
     Node *t ;//t指向要比较的节点
@@ -187,4 +187,3 @@ void popLinkList(Node* head){
         }
     }
 }
-# endif

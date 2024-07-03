@@ -30,3 +30,17 @@ char deQueue(Queue* queue){
 
     return ch;
 }
+
+int element(Queue * q){
+    if(q==NULL){
+
+        return -1;
+    }
+    int n=0;
+    int temp=q->_front;
+    while(temp!=q->_rear){
+        n++;
+        temp++;
+    }
+    return n;
+}

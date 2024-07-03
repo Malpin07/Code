@@ -18,4 +18,6 @@ int isQueueEmpty(Queue* queue);
 void enQueue(Queue* queue,char data);
 //出队
 char deQueue(Queue* queue);
+
+int element(Queue* queue);
 #endif

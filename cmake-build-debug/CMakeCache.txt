@@ -394,6 +394,42 @@ homeWork3_IS_TOP_LEVEL:STATIC=OFF
 homeWork3_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork3
 
 //Value Computed by CMake
+homeWork5_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homeWork5
+
+//Value Computed by CMake
+homeWork5_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+homeWork5_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork5
+
+//Value Computed by CMake
+homeWork6_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homeWork6
+
+//Value Computed by CMake
+homeWork6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+homeWork6_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork6
+
+//Value Computed by CMake
+homeWork7_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homeWork7
+
+//Value Computed by CMake
+homeWork7_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+homeWork7_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork7
+
+//Value Computed by CMake
+homeWork8_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homeWork8
+
+//Value Computed by CMake
+homeWork8_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+homeWork8_SOURCE_DIR:STATIC=A:/C_Code/homeWork/homeWork8
+
+//Value Computed by CMake
 homework4_BINARY_DIR:STATIC=A:/C_Code/cmake-build-debug/homeWork/homework4
 
 //Value Computed by CMake
@@ -505,7 +541,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

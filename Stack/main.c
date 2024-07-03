@@ -2,14 +2,14 @@
 #include <stdio.h>
 int main(){
 
-    Stack stack;
+    Stack* stack;
     initStack(&stack);
     for (ElemType i = 0; i <=10; ++i) {
-            push(&stack,i);
+            push(stack,i);
     }
-    resetStack(&stack);
-    while (!isStackEmpty(&stack)){
-        printf("%d ",pop(&stack));
+    resetStack(stack);
+    while (!isStackEmpty(stack)){
+        printf("%d ",pop(stack));
     }
 
     clearStack(&stack);

@@ -30,9 +30,9 @@ void clearStack(myStack*);
 */
 //链式存储
 typedef int ElemType;
-typedef struct _Node{
+typedef struct Node{
     ElemType data;
-    struct _Node* next;
+    struct Node* next;
 }Node;
 
 typedef struct myQueue{
@@ -40,15 +40,15 @@ typedef struct myQueue{
 }Stack;
 
 //初始化
-void initStack(Stack*);
+void initStack(Stack**);
 //判断是否空
 bool isStackEmpty(Stack*);
 //压栈
 void push(Stack*, ElemType);
-//弹栈
+//出栈
 ElemType pop(Stack*);
 //复位栈
 void resetStack(Stack*);
 //清空栈
-void clearStack(Stack*);
+void clearStack(Stack**);
 #endif
