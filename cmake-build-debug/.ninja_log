@@ -1,7 +1,7 @@
 # ninja log v5
 5	152	7398606937571485	LinkList/CMakeFiles/LinkList.dir/LinkList.c.obj	bab4018dbb5d6f1a
 5	303	7398606826407706	LinkList/CMakeFiles/LinkList.dir/myList.c.obj	86a4cde1a142b4ea
-11	1141	7417099192685986	build.ninja	591025fb37a1947d
+11	1141	7419435210313280	build.ninja	591025fb37a1947d
 7	119	7413723670831352	CMakeFiles/C_Code.dir/main.c.obj	115f0646e99a1160
 248	678	7409175446409158	homeWork/homeWork3/homeWork3.exe	e9e05bfc7e0a9eaa
 121	380	7413723673363856	C_Code.exe	637da1cdfa6bcbe2
