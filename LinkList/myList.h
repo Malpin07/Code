@@ -17,6 +17,7 @@ typedef struct Node{
     struct Node* next; //指针域
 } Node;
 
+
 Node* createLinkList();
 int insertLinkList(Node* head, ElemType data);
 int insertLinkListHead(Node* head, ElemType data);
